@@ -1,0 +1,398 @@
+.header{
+    background: #c1092d;
+    width: 25%;
+    height: 7px;
+    display: inline-block;
+    margin-right: -4px;
+    
+}
+.header1{
+    background: #962987;
+    width: 25%;
+    height: 7px;
+    display: inline-block;
+    margin-right: -5px;
+}
+.header2{
+    background: #00afae;
+    width: 25%;
+    height: 7px;
+    display: inline-block;
+}
+
+.min{
+    margin-top: -15px;
+    margin-right: -34%;
+}
+
+
+h2{
+    float: left; 
+    margin-top: 20px; 
+    font-family: cursive;
+}
+
+
+  .skip-to-content-link {
+    background: #b688d4;
+    height: 30px;
+    left: 45%;
+    padding: 10px;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+  }
+  
+  .skip-to-content-link:focus {
+    transform: translateY(0%);
+  }
+
+ #lang-switch{
+    margin-left: 280px;
+    block-size: 30px;
+    margin-top: 20px;
+ }
+
+ 
+.search-container {
+  display: flex;
+  justify-content:center;
+  margin-right: 15rem;
+  align-items: center;
+  padding: 20px;
+ 
+}
+
+input {
+  padding: 10px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#searchResults {
+  margin: 10px;
+}
+
+#top-right-text {
+  position: absolute;
+  top: 30px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  right: 7rem;
+  padding: 10px;
+  background-color: #f7fdfd;
+  color: #161414;
+  cursor: pointer;
+}
+
+/* Nav bar  */
+
+.menu-bar ul{
+  margin: 0%;
+  margin-top: 40px;
+  padding: 0%;
+  list-style: none;
+  height: 40px;
+  line-height: 40px;
+  background-color: rgb(201, 118, 40);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-size: 25px;
+
+
+}
+.menu-bar ul li{
+float:left;
+text-transform: uppercase;
+padding: 0px 110px;
+font-size: 20px;
+display: inline-block;
+border-right: 1px rgb(84, 167, 126);    
+}
+
+.menu-bar ul li a{
+  display: block;
+  padding: 0 10px;
+  color: azure;
+  text-decoration: none;
+}
+.menu-bar ul li :hover {
+  background-color: rgb(201, 118, 40);
+}
+
+
+.dropdown{
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn{
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color:white;
+  padding: 8px 40px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown:hover .dropbtn{
+  background-color: rgb(201, 118, 40);
+
+
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: rgb(229, 175, 125);
+min-width: 70px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  font-size: 18px;
+  color: black;
+  padding: 1px 38px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(201, 118, 40);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-1{
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown-1 .dropbtn-1{
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color:white;
+  padding: 8px 40px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-1:hover .dropbtn-1{
+  background-color: rgb(201, 118, 40);
+
+
+}
+
+.dropdown-content-1 {
+  display: none;
+position: absolute;
+background-color: rgb(229, 175, 125);
+min-width: 15px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content-1 a {
+  float: none;
+  font-size: 18px;
+  color: black;
+  padding: 3px 15px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content-1 a:hover {
+  background-color: rgb(201, 118, 40);
+}
+
+.dropdown-1:hover .dropdown-content-1 {
+  display: block;
+}
+
+
+
+
+
+.dropdown-3{
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown-3 .dropbtn-3{
+  font-size: 20px;
+  border: none;
+  outline: none;
+  
+  color:white;
+  padding: 8px 40px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-3:hover .dropbtn-3{
+  background-color: rgb(201, 118, 40);
+
+
+}
+
+
+
+.mySlides {
+  display:none;
+  
+}  
+
+.gallery{
+ 
+  margin: 25px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 480px;
+}
+
+.gallery :hover{
+  border: 1px solid #777;
+}
+
+.gallery img{
+width: 100%;
+height: auto;
+}
+.desc{
+  padding: 15px;
+  font-size: 20px;
+ 
+  text-align: center;
+}
+
+h1{
+  color: rgb(47, 148, 34);
+}
+.land{
+
+  margin-left: -30%;
+   margin-bottom: 15%;
+
+}
+.cloud{
+  margin-left: 40%;
+  margin-top: -42%;
+}
+
+
+
+footer{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right:0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  ;
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+}
+
+.socials a:hover i{
+color: aqua;
+}
+
+.footer-bottom{
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+
+
+
+
+
+
+@media (max-width:500px){
+  .footer-content{
+      display:  block;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      
+  }
+  
+  @media(max-width:500px){
+    .converter-body{
+        display:block;
+        width: 350px;
+       height:200px
+    }
+  }
+}

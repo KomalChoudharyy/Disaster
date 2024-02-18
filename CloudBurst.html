@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Burst</title>
+    <link rel="stylesheet" href="cloudburst.css">
+</head>
+<body>
+    <!-- HEADER -->
+
+ <div class="min">
+    <div class="header"></div>
+        <div class="header1"></div>
+        <div class="header2"></div>
+        
+    </div>
+
+    <!-- LOGO AND TEXT -->
+   <div>
+    <img src="logo.png" alt="logo" style="float: left; margin-right: 15px;  margin-left: 120px ;block-size: 150px;">
+    <h2>Himachal Pradesh State<br>Disaster Management <br>Website</h2>
+   </div>
+  
+  <!-- Top Header Right -->
+  <a class="skip-to-content-link" href="#main">
+    Skip to content
+  </a>
+
+  <!-- Set The Languages -->
+  <form>
+    
+    <select id="lang-switch">
+        <option value="en">English</option>
+        <option value="hi">Hindi</option>
+    </select>
+  </form>
+
+   </div>
+    <!-- Search Bar -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search...">
+      <button onclick="search()">Search</button>
+  </div>
+
+  <div id="searchResults">
+      <!-- Display search results here -->
+  </div> 
+
+<!-- HelpLine Number -->
+<div id="top-right-text" onclick="goToNewPage()">HELPLINE NUMBERS</div>
+
+<!-- Nav Bar -->
+<div class="menu-bar">
+  <ul>
+      <li><a href="#" onclick="goToHome()">Home</a></li>
+      <div class="dropdown">
+      <button class="dropbtn">DISASTER
+          </button>
+      <div class="dropdown-content">
+          
+             
+              <a href="#" onclick="goToNewPage2()">EarthQuake</a>
+              <a href="#" onclick="goToNewPage3()">LandSlide</a>
+              <a href="#" onclick="goToNewPage4()">Cloud Burst</a>
+              <a href="#" onclick="goToNewPage5()">Avalanche</a>
+              <a href="#" onclick="goToNewPage6()">Forest Fire</a>
+              <a href="#" onclick="goToNewPage1()">Home Safety</a>
+              <a href="#" onclick="goToNewPage1()">Hospital Safety</a>
+              <a href="#" onclick="goToNewPage1()">First Aid</a>
+       </div>
+  </div>
+   
+     
+      <li><a href="#" onclick="goToReliefPage()">Relief Fund</a></li>
+      <div class="dropdown-1">
+        <button class="dropbtn-1">RESPONSE</button>
+        <div class="dropdown-content-1">
+            <a href="#">NDRF</a>
+            <a href="#">SDRF</a>
+            <a href="#">Emergency Operations Centers</a>
+            <a href="#">Civil Defence</a>
+            <a href="#">Fire Service</a>
+            <a href="#">Home Guards</a>
+        </div>
+    </div>
+      
+    <li><a href="#">News</a></li>
+     
+
+    <div class="dropdown-3">
+      <button class="dropbtn-3" onclick="goToReliefPage()">Donate</button>
+     
+  </div>
+     
+  </ul>
+</div>  
+
+<div class="earth">
+    <h1>Cloud Burst</h1>
+</div>
+<div class="vertical-menu">
+    <a href="#" class="active"> Disaster</a>
+    <a href="#" onclick="goToNewPage2()">EarthQuake</a>
+              <a href="#" onclick="goToNewPage3()">LandSlide</a>
+              <a href="#" onclick="goToNewPage4()">Cloud Burst</a>
+              <a href="#" onclick="goToNewPage5()">Avalanche</a>
+              <a href="#" onclick="goToNewPage6()">Forest Fire</a>
+              <a href="#" onclick="goToNewPage1()">Home Safety</a>
+              <a href="#" onclick="goToNewPage2()">Hospital Safety</a>
+              <a href="#" onclick="goToNewPage7()">First Aid</a>
+</div>
+
+<!-- Add Images of EarthQuake -->
+
+<div class="photo">
+
+    <img class="mySlides" src="cloud.png" style="width: 100%; block-size: 350px;" >
+    <img class="mySlides" src="cloud1.jpg" style="width: 100%; block-size: 350px;" >
+    <img class="mySlides" src="cloud2.jpg" style="width: 100%; block-size: 350px;" >
+    <img class="mySlides" src="cloud3.jpg" style="width: 100%; block-size: 350px;" >
+    <img class="mySlides" src="cloud4.jpg" style="width: 100%; block-size: 350px;" >
+    
+
+</div>
+
+
+<div class="more" onclick="goToMore()">
+    <h2>More Information About CloudBurst</h2>
+    </div>
+    
+    <div class="pre">
+    <h1>Precaution During CloudBurst</h1>
+    </div>
+
+    <!-- Sliding Precautions Images -->
+
+<div class="slideshow-container">
+
+    <div class="mySlide fade">
+      
+      <img src="precl.jpg" style="width:100%">
+      
+    </div>
+    
+    <div class="mySlide fade">
+
+      <img src="precl1.jpg" style="width:100%">
+     
+    </div>
+    
+    <div class="mySlide fade">
+
+      <img src="precl2.jpg" style="width:100%">
+     
+    </div>
+
+    <div class="mySlide fade">
+   
+        <img src="precl3.jpg" style="width:100%">
+       
+      </div>
+
+      
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(4)"></span> 
+
+<script src="cloud.js"></script>
+</body>
+
+</html>
+
